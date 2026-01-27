@@ -56,3 +56,13 @@ Thumbs.db
 # =========================
 .vscode/
 .idea/
+
+
+
+# 忽略 input 和 output 里的所有内容
+input/*
+output/*
+
+# 但保留文件夹本身（否则 Git 不会显示空文件夹）
+!input/.gitkeep
+!output/.gitkeep
