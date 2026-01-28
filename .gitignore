@@ -15,6 +15,7 @@ __pycache__/
 # Python virtual env
 grounding-dino-env/
 
+lama-env
 # 通用 Python 忽略项（建议一起加）
 __pycache__/
 *.pyc
@@ -62,6 +63,13 @@ Thumbs.db
 # 忽略 input 和 output 里的所有内容
 input/*
 output/*
+
+*.jpg
+*.png
+*.jpeg
+*.bmp
+*.tiff
+
 
 # 但保留文件夹本身（否则 Git 不会显示空文件夹）
 !input/.gitkeep
